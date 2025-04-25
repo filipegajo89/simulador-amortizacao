@@ -1,5 +1,3 @@
-**scripts.js**
-```js
 // formata número no padrão pt-BR como moeda
 const fmt = v =>
   new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' })
